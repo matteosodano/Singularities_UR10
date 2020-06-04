@@ -1,5 +1,5 @@
 # Simulation 3
-The manipulator starts performs a circular trajectory with the end-effector on the yz-plane. It encounters an internal singularity that gives problem during the movement.
+The manipulator starts performs a circular trajectory with the end-effector on the yz-plane, with fixed orientation. It encounters an internal singularity that gives problem during the movement.
 
 The pseudo-inversion has problems at the beginning of the simulation, but it finishes with zero error
 
