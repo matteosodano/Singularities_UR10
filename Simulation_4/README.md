@@ -16,3 +16,5 @@ The DLS method gives better results both on the error
 and on the joint velocities
 
 <p align="center"> <img width=600 src="https://user-images.githubusercontent.com/62264708/83746704-cb3b8180-a65f-11ea-9914-5608d1e8d4fb.jpg"> </p>
+
+In the video, performances of the DLS with a double circle are shown. The movement is acceptable, even if it is evident that it is not a perfect circle.
