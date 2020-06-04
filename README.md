@@ -1,7 +1,7 @@
 # Effects of Singularities in the Kinematic Control of the Robot Manipulator Universal Robot UR10
 Developed by: M. Sodano (2018).
 
-Supervisors: prof. A. De Luca.
+Supervisor: prof. A. De Luca.
 
 Achievement: Bachelor thesis (partial). \
 <br>
@@ -14,18 +14,18 @@ As it is well known, if an initial position and a velocity are assigned to the e
 ### Pseudo-inversion
 The pseudo-inversion is the solution of a constrained minimization problem: the joint velocities are minimized, and the differential kinematics must be satisfied. The solution is not unique, but if the jacobian is full rank, it is
 
-$Jpinv = JT (J JT) -1$
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/83741257-4305ae00-a658-11ea-9440-03c0822547f3.png"> </p>
 
 where the geometric jacobian is used.
 
 ### DLS
 The DLS is the solution of an unconstrained minimization problem
 
-$min(...)$
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/83741258-439e4480-a658-11ea-8052-7c09d8cec31c.png"> </p>
 
 in which $lambda$ is a parameters that weighs the importance of minimizing the joint velocities over the differential kinematics (i.e., the error). It is generally set to zero when far away from a singularity (the solution will be the same as the one given by the pseudo-inversion) and rises when approaching one. The solution is
 
-$$
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/83741254-426d1780-a658-11ea-98f9-44732519eeef.png"> </p>
 
 where the analytic jacobian is used. 
 
