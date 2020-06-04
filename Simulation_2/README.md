@@ -10,8 +10,8 @@ and the joint velocities saturate:
 
 <p align="center"> <img width=600 src="https://user-images.githubusercontent.com/62264708/83745210-844c8c80-a65d-11ea-8ffc-de9ea35cf80b.jpg"> </p>
 
-Performances of the DLS controller are generally better, since the error is smaller of one order of magnitude and the joint velocities remain small:
+Performances of the DLS controller are generally better, since the error is smaller and the joint velocities remain small:
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/83745215-857db980-a65d-11ea-8bf7-668e55eefc81.jpg"> </p>
+<p align="center"> <img width=600 src="https://user-images.githubusercontent.com/62264708/83745215-857db980-a65d-11ea-8bf7-668e55eefc81.jpg"> </p>
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/83745217-857db980-a65d-11ea-88cf-44cc6a306301.jpg"> </p>
+<p align="center"> <img width=600 src="https://user-images.githubusercontent.com/62264708/83745217-857db980-a65d-11ea-88cf-44cc6a306301.jpg"> </p>
