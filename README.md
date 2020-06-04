@@ -12,7 +12,7 @@ The aim of this project is the design of kinematic controllers based on the pseu
 As it is well known, if an initial position and a velocity are assigned to the end-effector, the IDK determines the joint velocities that realize the goal. If the jacobian is square and full rank, this is achieved by the simple inversion. If not, the jacobian is not invertible, and alternative strategies are needed.
 
 ### Pseudo-inversion
-The pseudo-inversion is the solution of a constrained minimization problem: the joint velocities are minimized, and the differential kinematics must be satisfied. The solution is not unique, but if the jacobian is full rank, it is
+The pseudo-inversion is the solution of a constrained minimization problem: the joint velocities are minimized, and the differential kinematics must be satisfied. The solution is not unique but, if the jacobian is full rank, it is
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/83741257-4305ae00-a658-11ea-9440-03c0822547f3.png"> </p>
 
